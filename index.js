@@ -133,9 +133,9 @@ const p1 = new Vector3(2, 5, 0);
 const p2 = new Vector3(5, 3, 0);
 
 console.log(byNormal(a, b, c, p1));
-console.log(bySide(a, b, c, p2));
+console.log(byNormal(a, b, c, p2));
 
-console.log(byNormal(a, b, c, p1));
+console.log(bySide(a, b, c, p1));
 console.log(bySide(a, b, c, p2));
 
 console.log(bySumAngles(a, b, c, p1));
